@@ -1,0 +1,17 @@
+# 核心依赖
+numpy>=1.26
+python-dotenv>=1.0
+
+# ===== 大模型 API 客户端（DeepSeek OpenAI 兼容接口）=====
+openai>=1.0
+
+# ===== 本地向量化（bge-small-zh-v1.5，CPU 可跑，离线）=====
+sentence-transformers>=2.2
+
+# ===== 中文分词（BM25 检索用）=====
+jieba>=0.42
+rank-bm25>=0.2
+
+# ===== 后端 Web（FastAPI + SSE 流式）=====
+fastapi>=0.110
+uvicorn>=0.27
